@@ -38,6 +38,11 @@ export default new Router({
       path:'/test',
       name:'Test',
       component:()=>import('@/views/before/Test')
+    },
+    {
+      path:'/temp',
+      name:'Temp',
+      component:()=>import('@/views/now/Temp')
     }
   ]
 })
